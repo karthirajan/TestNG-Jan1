@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.flipkart.stepdefinition.MobilePurchase">
+        <methods>
+          <include name="close"/>
+          <include name="startTime"/>
+          <include name="launch"/>
+          <include name="endTime"/>
+          <include name="buyNow"/>
+        </methods>
+      </class> <!-- com.flipkart.stepdefinition.MobilePurchase -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

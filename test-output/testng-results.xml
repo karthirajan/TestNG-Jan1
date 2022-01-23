@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-23T03:53:10Z" name="Suite" finished-at="2022-01-23T03:53:29Z" duration-ms="19188">
+    <groups>
+      <group name="smoke">
+        <method signature="MobilePurchase.loginValidation(java.lang.String, java.lang.String)[pri:1, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" name="loginValidation" class="com.flipkart.stepdefinition.MobilePurchase"/>
+        <method signature="MobilePurchase.mobileSearch(java.lang.String)[pri:2, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" name="mobileSearch" class="com.flipkart.stepdefinition.MobilePurchase"/>
+        <method signature="TVPurchase.loginValidationTV()[pri:1, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" name="loginValidationTV" class="com.flipkart.stepdefinition.TVPurchase"/>
+        <method signature="TVPurchase.tvSearch()[pri:2, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" name="tvSearch" class="com.flipkart.stepdefinition.TVPurchase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-01-23T03:53:10Z" name="Test" finished-at="2022-01-23T03:53:29Z" duration-ms="19188">
+      <class name="com.flipkart.stepdefinition.MobilePurchase">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:10Z" name="launch" finished-at="2022-01-23T11:53:14Z" duration-ms="4228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:14Z" name="startTime" finished-at="2022-01-23T11:53:14Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="loginValidation(java.lang.String, java.lang.String)[pri:1, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:14Z" name="loginValidation" finished-at="2022-01-23T11:53:15Z" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rajan@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="endTime()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:15Z" name="endTime" finished-at="2022-01-23T11:53:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:19Z" name="startTime" finished-at="2022-01-23T11:53:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="mobileSearch(java.lang.String)[pri:2, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:19Z" name="mobileSearch" data-provider="mobileName" finished-at="2022-01-23T11:53:23Z" duration-ms="3734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iPhone]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSearch -->
+        <test-method is-config="true" signature="endTime()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:23Z" name="endTime" finished-at="2022-01-23T11:53:23Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:27Z" name="startTime" finished-at="2022-01-23T11:53:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="windowsHandling()[pri:3, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:27Z" name="windowsHandling" finished-at="2022-01-23T11:53:29Z" duration-ms="2028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowsHandling -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:29Z" name="close" finished-at="2022-01-23T11:53:29Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endTime()[pri:0, instance:com.flipkart.stepdefinition.MobilePurchase@7ceb3185]" started-at="2022-01-23T11:53:29Z" name="endTime" finished-at="2022-01-23T11:53:29Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+      </class> <!-- com.flipkart.stepdefinition.MobilePurchase -->
+      <class name="com.flipkart.stepdefinition.TVPurchase">
+        <test-method is-config="true" signature="launch()[pri:0, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:15Z" name="launch" finished-at="2022-01-23T11:53:19Z" duration-ms="3991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:19Z" name="startTime" finished-at="2022-01-23T11:53:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="loginValidationTV()[pri:1, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:19Z" name="loginValidationTV" finished-at="2022-01-23T11:53:19Z" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidationTV -->
+        <test-method is-config="true" signature="endTime()[pri:0, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:19Z" name="endTime" finished-at="2022-01-23T11:53:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method is-config="true" signature="startTime()[pri:0, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:23Z" name="startTime" finished-at="2022-01-23T11:53:23Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method signature="tvSearch()[pri:2, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:23Z" name="tvSearch" finished-at="2022-01-23T11:53:25Z" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvSearch -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:25Z" name="close" finished-at="2022-01-23T11:53:27Z" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endTime()[pri:0, instance:com.flipkart.stepdefinition.TVPurchase@436c81a3]" started-at="2022-01-23T11:53:25Z" name="endTime" finished-at="2022-01-23T11:53:25Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+      </class> <!-- com.flipkart.stepdefinition.TVPurchase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
